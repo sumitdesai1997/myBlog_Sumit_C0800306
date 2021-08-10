@@ -32,27 +32,22 @@ footer a{
     text-decoration: none;
 }
 
+footer p{
+    text-align: center;
+    color: white;
+}
+
+footer ul li{
+    display:  inline-block;
+    width: 20%;
+    padding-left: 1em;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+}
+
 ul{
     list-style-type: none;
     padding-left: 12em;
-}
-
-.social{
-    text-align: center;
-}
-
-.social1{
-    float: left;
-    margin-right: 8em;
-}
-
-.social2{
-    margin-top: 2em;
-}
-
-.social img{
-    margin-top: 20px;
-    margin-right: 10px;
 }
 
 #contact{
