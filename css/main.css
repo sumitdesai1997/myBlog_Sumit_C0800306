@@ -1,0 +1,66 @@
+header {
+    background-color: #137568;
+    padding-top: 2em;
+    padding-bottom: 8.3em;
+    padding-left:2em
+  }
+
+header a {
+    float: left;
+    padding-right: 2em;
+}
+
+header a img{
+border-radius: 1.5em
+}
+
+header p{
+    font-family: "Copperplate";
+    font-size: 2em;
+    color: white;
+}
+
+footer h2{
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    padding-top: 1.2em;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 12em;
+}
+
+.social{
+    text-align: center;
+}
+
+.social1{
+    float: left;
+    margin-right: 8em;
+}
+
+.social2{
+    margin-top: 2em;
+}
+
+.social img{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#contact{
+    background-color: #434242;
+    font-family: 'Open Sans', sans-serif !important;
+    padding-bottom: 1.2em;
+}
+
+nav {
+    clear: left;
+}
