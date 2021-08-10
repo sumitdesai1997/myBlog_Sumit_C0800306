@@ -1,7 +1,7 @@
 header {
     background-color: #137568;
     padding-top: 2em;
-    padding-bottom: 8.3em;
+    padding-bottom: 5.5em;
     padding-left:2em
   }
 
@@ -18,6 +18,10 @@ header p{
     font-family: "Copperplate";
     font-size: 2em;
     color: white;
+}
+
+header div{
+    padding-top: 3.5em;
 }
 
 footer h2{
@@ -47,15 +51,87 @@ footer ul li{
 
 ul{
     list-style-type: none;
-    padding-left: 12em;
 }
 
-#contact{
+.contact{
     background-color: #434242;
     font-family: 'Open Sans', sans-serif !important;
     padding-bottom: 1.2em;
+    clear : left;
+}
+
+.roundImage{
+    border-radius: 50%;
 }
 
 nav {
     clear: left;
 }
+
+main h1, main h2{
+    color: #137568;
+    font-weight: 300;
+}
+
+main h1{
+    font-size: 50px;
+}
+
+main h2{
+    font-size: 32px;
+}
+
+.profile{
+    text-align: center;
+    width: 65%;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    float: left
+}
+
+.aboutMe{
+    width: 30%;
+    float: left;
+    margin-top: 1em;
+}
+
+.picture{
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 1em;
+}
+
+.details{
+    width: 30%;
+    float: left;
+    margin-top: 1em;
+}
+
+.connect{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside{
+    width: 20%;
+    float: left;
+    margin-top: 3em;
+}
+
+aside li{
+    height: 4em;
+    width: 10em;
+    background-color: #434242;
+    text-align: center;
+    padding-top: 2em;
+}
+
+aside a{
+    color: white;
+}
+
+aside a
