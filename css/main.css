@@ -72,6 +72,10 @@ nav {
     clear: left;
 }
 
+body{
+    background-color: whitesmoke;
+}
+
 main h1, main h2{
     color: #137568;
     font-weight: 300;
@@ -92,27 +96,30 @@ main h2{
     margin-right: 5%;
     margin-top: 3em;
     margin-bottom: 3em;
-    float: left
+    float: left;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 .aboutMe{
     width: 30%;
     float: left;
     margin-top: 1em;
-    text-align: justify;
+    text-align:justify;
 }
 
 .picture{
     width: 30%;
     float: left;
     margin-left: 5%;
-    margin-top: 1em;
+    margin-top: 3em;
 }
 
 .details{
     width: 30%;
     float: left;
     margin-top: 1em;
+    margin-left: 5%;
+    text-align:justify;
 }
 
 .connect{

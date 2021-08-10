@@ -64,3 +64,44 @@ aside{
 .experienceAside{
     margin-top: 24em;
 }
+
+.contactForm{
+    width: 65%;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    float: left;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.contactForm h1{
+    text-align: center;
+}
+
+.contactForm hr{
+    margin-bottom: 3em;
+}
+
+
+.contactForm input, .contactForm select{
+    margin-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width:20em
+}
+
+.firstLabel{
+    float: left;
+    margin-right: 2em;
+}
+
+textarea{
+    width: 43em;
+    height: 10em;
+}
+
+.contactAside{
+    margin-top: 8em;
+}
+
