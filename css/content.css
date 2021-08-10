@@ -1,24 +1,34 @@
-/* styles for the table */
+
 table {
     border: 0.2em solid #000000;
+    border-collapse: collapse;
+}
+
+.tableCertificate{
     margin-left: 5%;
     margin-right: 5%;
     width: 75%;
     float: right;
     margin-top: 4em;
-    border-collapse: collapse;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
-/* styles for the th and td */
 th, td {
     border: 0.1em solid #000000;
     padding: 1em;
 }
 
-/* styles for the th */
 th {
-    background-color: #1d1d1c;
+    background-color: #137568;
     color: #ffffff;
+}
+
+.tableCertificate h1{
+    text-align: center;
+}
+
+.tableCertificate hr{
+    margin-bottom: 3em;
 }
 
 /* styles for caption */
@@ -34,6 +44,10 @@ aside{
     margin-bottom: 3em;
 }
 
+.contactAside{
+    margin-top: 9em;
+}
+
 .experience{
     text-align: center;
     width: 65%;
@@ -44,7 +58,6 @@ aside{
     float: right;
     font-family: 'Open Sans', sans-serif !important;
 }
-
 
 .experience h2{
     text-align: left;
@@ -65,7 +78,7 @@ aside{
 
 .experienceAside{
     margin-top: 24em;
-    margin-bottom: 28em;
+    margin-bottom: 30em;
 }
 
 .contactForm{
@@ -89,8 +102,10 @@ aside{
 
 .contactForm input, .contactForm select{
     margin-bottom: 2em;
+    margin-top: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
+    padding-left: 1em;
     width:20em
 }
 
@@ -102,13 +117,25 @@ aside{
 textarea{
     width: 43em;
     height: 10em;
+    padding-top: 1em;
+    padding-left: 1em;
+    margin-top:1em
+}
+
+.contactLabel{
+    margin-bottom: 1em;
 }
 
 .contactAside{
-    margin-top: 8em;
-    margin-bottom:11em;
+    margin-top: 12em;
+    margin-bottom:14em;
+}
+
+.certificateAside{
+    margin-top: 9em;
 }
 
 .btnSubmit{
     background-color: #137568;
+    width: 44em !important;
 }
