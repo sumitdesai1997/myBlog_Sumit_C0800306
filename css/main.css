@@ -99,6 +99,7 @@ main h2{
     width: 30%;
     float: left;
     margin-top: 1em;
+    text-align: justify;
 }
 
 .picture{

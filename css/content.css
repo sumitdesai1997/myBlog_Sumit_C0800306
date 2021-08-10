@@ -33,3 +33,34 @@ aside{
     float: left;
     margin-top: 3em;
 }
+
+.experience{
+    text-align: center;
+    width: 65%;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    float: left
+}
+
+.experience h2{
+    text-align: left;
+}
+
+.institute{
+    float: left;
+    margin-right: 4em;
+    margin-bottom: 5em;
+    text-align: left;
+    width: 9em;
+}
+
+.course{
+    text-align: justify;
+    margin-bottom: 3em;
+}
+
+.experienceAside{
+    margin-top: 24em;
+}
