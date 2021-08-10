@@ -1,0 +1,35 @@
+/* styles for the table */
+table {
+    border: 0.1em solid #000000;
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-right: 5%;
+    width: 65%;
+    float: left;
+    margin-top: 4em;
+}
+
+/* styles for the th and td */
+th, td {
+    border: 0.1em solid #000000;
+    padding: 1em;
+}
+
+/* styles for the th */
+th {
+    background-color: #1d1d1c;
+    color: #ffffff;
+}
+
+/* styles for caption */
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+aside{
+    width: 20%;
+    float: left;
+    margin-top: 3em;
+}
