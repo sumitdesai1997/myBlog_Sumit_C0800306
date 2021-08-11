@@ -23,26 +23,27 @@
     <main>
         <div class="contactForm">
             <h1>Contact me</h1>
+            <p>Please complete the quick form below. Your message will be confidentialy sent to me.</p>
             <hr>
             <form class="formFields">
               <div class="firstLabel">
                 <label for="fname" class="contactLabel">First Name</label><br>
-                <input type="text" id="fname" name="firstname" placeholder="First name">
+                <input type="text" id="fname" name="firstname" placeholder="First name" required>
               </div>
               <div class="lastLabel">
                 <label for="lname" class="contactLabel">Last Name</label><br>
-                <input type="text" id="lname" name="lastname" placeholder="Last name">
+                <input type="text" id="lname" name="lastname" placeholder="Last name" required>
               </div>
               
               <br>
               
               <div class="firstLabel">
                 <label for="email" class="contactLabel">E-mail</label><br>
-                <input type="email" id="email" name="email" placeholder="E-mail">
+                <input type="email" id="email" name="email" placeholder="E-mail" required>
               </div>
               <div class="lastLabel">
                 <label for="country" class="contactLabel">Country</label><br>
-                <select id="country" name="country">
+                <select id="country" name="country" required>
                   <option value="canada">Canada</option>
                   <option value="india">India</option>
                   <option value="usa">USA</option>
@@ -52,7 +53,7 @@
               <br>
     
               <label for="subject" class="contactLabel">Subject</label><br>
-              <textarea id="subject" name="subject" placeholder="Write your query"></textarea><br><br>
+              <textarea id="subject" name="subject" placeholder="Write your query" required></textarea><br><br>
           
               <input type="submit" value="Submit" class="btnSubmit">
             </form>

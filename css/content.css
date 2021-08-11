@@ -37,6 +37,10 @@ th {
     margin-bottom: 3em;
 }
 
+.tableCertificate p{
+    text-align: center;
+}
+
 /* styles for caption */
 caption {
     font-size: 1.5em;
@@ -112,6 +116,10 @@ aside{
     padding-bottom: 1em;
     padding-left: 1em;
     width: 28em
+}
+
+.contactForm p{
+    text-align: center;
 }
 
 .firstLabel{
