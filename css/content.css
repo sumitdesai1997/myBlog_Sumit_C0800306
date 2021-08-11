@@ -41,7 +41,20 @@ th {
     text-align: center;
 }
 
-/* styles for caption */
+.greeting{
+    text-align: center;
+}
+
+.greeting {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 4em;
+    width: 65%;
+    float: right;
+    margin-top: 4em;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
 caption {
     font-size: 1.5em;
     font-weight: bold;
@@ -56,6 +69,10 @@ aside{
 
 .contactAside{
     margin-top: 9em;
+}
+
+.thankYouAside{
+    margin-bottom: 12em;
 }
 
 .experience{
@@ -92,6 +109,16 @@ aside{
 }
 
 .contactForm{
+    width: 65%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    float: right;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+ #messsage{
     width: 65%;
     margin-left: 10%;
     margin-right: 10%;
@@ -141,12 +168,12 @@ textarea{
 
 .contactAside{
     margin-top: 7em;
-    margin-bottom: 15em;
+    margin-bottom: 17em;
 }
 
 .certificateAside{
     margin-top: 7em;
-    margin-bottom: 42em;
+    margin-bottom: 48em;
 }
 
 .btnSubmit{

@@ -25,7 +25,7 @@
             <h1>Contact me</h1>
             <p>Please complete the quick form below. Your message will be confidentialy sent to me.</p>
             <hr>
-            <form class="formFields">
+            <form class="formFields" onsubmit="dataSave()" >
               <div class="firstLabel">
                 <label for="fname" class="contactLabel">First Name</label><br>
                 <input type="text" id="fname" name="firstname" placeholder="First name" required>
@@ -112,4 +112,10 @@
   </div>
 
 </body>
+<script>
+  function dataSave() {
+    event.preventDefault();
+    location.href="thankYou.html"
+  }
+</script>
 </html>
