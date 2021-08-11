@@ -5,9 +5,9 @@ table {
 }
 
 .tableCertificate{
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 75%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 65%;
     float: right;
     margin-top: 4em;
     font-family: 'Open Sans', sans-serif !important;
@@ -52,7 +52,7 @@ aside{
     text-align: center;
     width: 65%;
     margin-left: 10%;
-    margin-right: 5%;
+    margin-right: 10%;
     margin-top: 3em;
     margin-bottom: 3em;
     float: right;
@@ -84,7 +84,7 @@ aside{
 .contactForm{
     width: 65%;
     margin-left: 10%;
-    margin-right: 5%;
+    margin-right: 10%;
     margin-top: 3em;
     margin-bottom: 3em;
     float: right;
@@ -99,23 +99,22 @@ aside{
     margin-bottom: 3em;
 }
 
-
 .contactForm input, .contactForm select{
     margin-bottom: 2em;
     margin-top: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 1em;
-    width:20em
+    width: 28em
 }
 
 .firstLabel{
     float: left;
-    margin-right: 2em;
+    margin-right: 5em;
 }
 
 textarea{
-    width: 43em;
+    width: 63em;
     height: 10em;
     padding-top: 1em;
     padding-left: 1em;
@@ -137,5 +136,5 @@ textarea{
 
 .btnSubmit{
     background-color: #137568;
-    width: 44em !important;
+    width: 64em !important;
 }
