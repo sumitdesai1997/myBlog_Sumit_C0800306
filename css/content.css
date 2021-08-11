@@ -24,8 +24,13 @@ th {
     color: #ffffff;
 }
 
-.tableCertificate h1{
+.tableCertificate h1 {
     text-align: center;
+}
+
+.slides{
+    text-align: center;
+    margin-top: 1.5em;
 }
 
 .tableCertificate hr{
@@ -133,7 +138,7 @@ textarea{
 
 .certificateAside{
     margin-top: 9em;
-    margin-bottom: 28em;
+    margin-bottom: 40em;
 }
 
 .btnSubmit{
@@ -146,8 +151,7 @@ textarea{
     text-align: center;
 }  
 
-#slideshow > div { 
-  margin-top: 2em; 
+#slideshow > div {
   top: 10px;
   left: 10px;
   right: 10px;

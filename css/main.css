@@ -132,6 +132,11 @@ main h2{
     text-align:justify;
 }
 
+.resume{
+    clear: left;
+    margin-left: 5em;
+}
+
 .connect{
     width: 70%;
     margin-left: auto;
