@@ -1,5 +1,10 @@
 header {
     background-color: #434242;
+    background-image:
+    linear-gradient(
+      to right, 
+      #000000, #434242
+    );
     padding-top: 2em;
     padding-bottom: 4em;
     padding-left:2em
@@ -55,6 +60,11 @@ ul{
 
 .contact{
     background-color: #434242;
+    background-image:
+    linear-gradient(
+      to right, 
+      #000000, #434242
+    );
     font-family: 'Open Sans', sans-serif !important;
     padding-bottom: 1.2em;
     clear : left;
@@ -137,7 +147,7 @@ aside{
 aside li{
     height: 4em;
     width: 10em;
-    background-color: #434242;
+    background-color: #101010;
     text-align: center;
     padding-top: 2em;
 }
